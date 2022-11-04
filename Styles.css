@@ -1,0 +1,163 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+    
+    body{
+    font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    nav{
+    position: fixed;
+    background-color: black;
+    color: lightgray;
+    width:100%;
+    height:40px;
+    font-size:12pt;
+    
+    }
+    
+    ul{
+    width:80%;
+    margin:auto;
+    display:flex;
+    padding:10px 50px;
+    }
+    
+    li{
+    list-style:none;
+    margin-left:30px;
+    
+    }
+    
+    li a{
+    text-decoration:none;
+    color:white;
+    }
+    
+    main{
+    padding-top:40px;
+    }
+    #banner_one{
+    background-image:url('IMG/iPad.jpg');
+    background-repeat: no-repeat;
+    height:100vh;
+    background-position-x:350px;
+    padding-top:120px;
+    background:cover;
+    }
+    .banner >*{
+    display:flex;
+    justify-content: center;
+    }
+    .banner h1{
+    font-size:40px;
+    }
+
+    .banner h3{
+    font-size:26pt;
+    font-weight: lighter;
+    }
+
+    .banner a{
+    font-size:16pt;
+    font-weight: bold;
+    text-decoration: none;
+    
+    }
+    #banner_two{
+    background-image:url('IMG/iPhone14pro.jpg');
+    background-size:cover;
+    height:100vh;
+    background-position-y:-100px;
+    padding-top:120px;
+    }
+
+    #banner_three{
+    background-image:url('IMG/iPhone14-.jpg');
+    background-size:cover;
+    height:100vh;
+    background-position-y:-50px;
+    padding-top:120px;
+    }
+    
+    .category{
+        display: flex;
+        height: 70vh;
+        justify-content: center;
+        flex: 1;
+        border: 4px solid whitesmoke;
+    }
+    .box{
+        text-align: center;
+        height: 70vh;
+        width: 50%;
+        margin: 20px;
+        background-size:cover;
+        padding-top: 40px;
+        border: 10px;
+        
+    }
+    .box a{
+        text-decoration: none;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+
+    a:hover {
+    text-decoration:underline !important;
+    }
+    
+    footer .container{
+    font-size:12px;
+    padding-top:20px;
+    }
+    footer{
+    background-color: grey;
+    width:100%;
+    height:150px;
+    }
+    footer .container > *{
+    font-size:10pt;
+    color:6e6e73;
+    }
+    #box1a{
+        width: 741px;
+        height: 169px;
+        display: flex;
+        justify-content: center;
+    }
+    #box2a{
+        width: 741px;
+        height: 169px;
+        display: flex;
+        justify-content: center;
+    }
+    #box3a{
+        width: 741px;
+        height: 169px;
+        display: flex;
+        justify-content: center;
+    }
+    #box4a{
+        width: 741px;
+        height: 169px;
+        display: flex;
+        justify-content: center;
+    }
+    #box5a{
+        width: 741px;
+        height: 169px;
+        display: flex;
+        justify-content: center;
+    }
+    #box6a{
+        width: 741px;
+        height: 169px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
